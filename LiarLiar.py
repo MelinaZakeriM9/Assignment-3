@@ -11,18 +11,10 @@ def logic(a2, d1, d3):
     b1 = -d1
     b2 = -d3
 
-    if d1 == 1:
-        c3 = 1
-    elif d1 == -1:
-        c3 = -1
-    
+    c3 = d1
     d2 = -c3
-
-    if a2 == 1:
-        a1 = 1 
-    elif a2 == -1:
-        a1 = -1
-
+    
+    a1 = a2
     c1 = -a1
 
     Ws= 0
