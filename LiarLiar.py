@@ -1,7 +1,6 @@
 # uhm...
 import random
 
-
 # a3 is necessarilly true
 # a2, d1 and d3 determine the convict 
 # 1s are True and -1s are False
@@ -34,14 +33,9 @@ def logic(a2, d1, d3):
         elif i == -1:
             Ls += 1
 
-    if Ws == 6 and Ls == 5:
-        a3 = False
-        return a3
-    elif Ws == 5 and Ls == 6:
-        a3 = True
-        return a3
-    else:
-        pass
+    
+    if Ws == 5 and Ls == 6:
+        return True
 
 
 
